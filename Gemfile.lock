@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/rack/rack.git
+  revision: ab67e70d82911c0c86dce737c7064d0bd6daf3d4
+  specs:
+    rack (1.4.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,7 +76,6 @@ GEM
     nokogiri (1.5.5)
     pg (0.12.2)
     polyglot (0.3.3)
-    rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
     rack-ssl (1.3.2)
@@ -144,6 +149,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   pg (= 0.12.2)
+  rack!
   rails (= 3.2.8)
   rspec-rails (= 2.10.0)
   sass-rails (~> 3.2.3)

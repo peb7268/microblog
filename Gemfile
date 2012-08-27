@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.8'
+gem 'rack', git: 'git://github.com/rack/rack.git'
 
 group	:development, :test do
 	gem 'sqlite3', '1.3.5'
